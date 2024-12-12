@@ -2,13 +2,61 @@
     {
         "insurance_plan": "Plan A",
         "insurance_company": "Company X",
-        "cpt_code": "12345",
-        "amount_due": 100
+        "cpt_codes": [
+            {
+                "code": "12345",
+                "amount_due": 100
+            },
+            {
+                "code": "54321",
+                "amount_due": 150
+            }
+        ],
+        "patient_demographics": {
+            "patient_id": "P001",
+            "name": "John Doe",
+            "dob": "19930101", 
+            "gender": "M",
+            "address": {
+                "street": "123 Main St",
+                "city": "Anytown",
+                "state": "NY",
+                "zip_code": "12345"
+            },
+            "relationship_to_policyholder": "self"
+        },
+        "policyholder_info": {
+            "policyholder_id": "PH001",
+            "name": "Jane Doe",
+            "relationship": "mother"  
+        }
     },
     {
         "insurance_plan": "Plan B",
         "insurance_company": "Company Y",
-        "cpt_code": "67890",
-        "amount_due": 200
+        "cpt_codes": [
+            {
+                "code": "67890",
+                "amount_due": 200
+            }
+        ],
+        "patient_demographics": {
+            "patient_id": "P002",
+            "name": "Alice Smith",
+            "dob": "19981231",  
+            "gender": "F",
+            "address": {
+                "street": "456 Elm St",
+                "city": "Othertown",
+                "state": "CA",
+                "zip_code": "67890"
+            },
+            "relationship_to_policyholder": "child"
+        },
+        "policyholder_info": {
+            "policyholder_id": "PH002",
+            "name": "Bob Smith",
+            "relationship": "father"  
+        }
     }
 ]

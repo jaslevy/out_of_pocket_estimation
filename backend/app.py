@@ -1,10 +1,10 @@
 # app.py
 from fastapi import FastAPI
 from pydantic import BaseModel
+from search import find_estimates  # Import the search function
 
 app = FastAPI()
 
-# Define a model for the request body
 class EstimateRequest(BaseModel):
     insurance_plan: str
     insurance_company: str
@@ -12,7 +12,10 @@ class EstimateRequest(BaseModel):
 
 @app.post("/estimate")
 async def get_estimate(request: EstimateRequest):
-    # Logic to calculate the estimate based on the request data
-    estimate = 100  # Placeholder for actual calculation
-    additional_info = "Sample additional info"
-    return {"estimate": estimate, "additional_info": additional_info}
+    results = find_estimates(request.insurance_plan, request.insurance_company, request.cpt_codes)
+    
+    if not results:
+        return {"estimate": 0, "additional_info": "No matching data found."}
+
+    total_estimate = sum(item["amount_due"] for item in results)
+    return {"estimate": total_estimate, "details": results}
