@@ -1,0 +1,14 @@
+[
+    {
+        "insurance_plan": "Plan A",
+        "insurance_company": "Company X",
+        "cpt_code": "12345",
+        "amount_due": 100
+    },
+    {
+        "insurance_plan": "Plan B",
+        "insurance_company": "Company Y",
+        "cpt_code": "67890",
+        "amount_due": 200
+    }
+]
