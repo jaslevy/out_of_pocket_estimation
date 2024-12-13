@@ -1,0 +1,250 @@
+[
+    {
+        "insurance_plan": "Plan A",
+        "insurance_company": "Company X",
+        "cpt_codes": [
+            {
+                "code": "12345",
+                "amount_due": 100
+            },
+            {
+                "code": "54321",
+                "amount_due": 150
+            }
+        ],
+        "patient_demographics": {
+            "patient_id": "P001",
+            "name": "John Doe",
+            "dob": "19930101",
+            "gender": "M",
+            "address": {
+                "street": "123 Main St",
+                "city": "Anytown",
+                "state": "NY",
+                "zip_code": "12345"
+            },
+            "relationship_to_policyholder": "self"
+        },
+        "policyholder_info": {
+            "policyholder_id": "PH001",
+            "name": "Jane Doe",
+            "relationship": "mother"
+        }
+    },
+    {
+        "insurance_plan": "Plan B",
+        "insurance_company": "Company Y",
+        "cpt_codes": [
+            {
+                "code": "67890",
+                "amount_due": 200
+            }
+        ],
+        "patient_demographics": {
+            "patient_id": "P002",
+            "name": "Alice Smith",
+            "dob": "19981231",
+            "gender": "F",
+            "address": {
+                "street": "456 Elm St",
+                "city": "Othertown",
+                "state": "CA",
+                "zip_code": "67890"
+            },
+            "relationship_to_policyholder": "child"
+        },
+        "policyholder_info": {
+            "policyholder_id": "PH002",
+            "name": "Bob Smith",
+            "relationship": "father"
+        }
+    },
+    {
+        "insurance_plan": "Plan A",
+        "insurance_company": "Company X",
+        "cpt_codes": [
+            {
+                "code": "11111",
+                "amount_due": 50
+            },
+            {
+                "code": "12345",
+                "amount_due": 75
+            }
+        ],
+        "patient_demographics": {
+            "patient_id": "P003",
+            "name": "Mike Johnson",
+            "dob": "19850715",
+            "gender": "M",
+            "address": {
+                "street": "789 Pine St",
+                "city": "Sometown",
+                "state": "TX",
+                "zip_code": "54321"
+            },
+            "relationship_to_policyholder": "spouse"
+        },
+        "policyholder_info": {
+            "policyholder_id": "PH003",
+            "name": "Laura Johnson",
+            "relationship": "self"
+        }
+    },
+    {
+        "insurance_plan": "Plan C",
+        "insurance_company": "Company Z",
+        "cpt_codes": [
+            {
+                "code": "54321",
+                "amount_due": 120
+            },
+            {
+                "code": "67890",
+                "amount_due": 250
+            }
+        ],
+        "patient_demographics": {
+            "patient_id": "P004",
+            "name": "Emily Davis",
+            "dob": "19901123",
+            "gender": "F",
+            "address": {
+                "street": "321 Oak St",
+                "city": "Elsewhere",
+                "state": "FL",
+                "zip_code": "67812"
+            },
+            "relationship_to_policyholder": "self"
+        },
+        "policyholder_info": {
+            "policyholder_id": "PH004",
+            "name": "Chris Davis",
+            "relationship": "child"
+        }
+    },
+    {
+        "insurance_plan": "Plan D",
+        "insurance_company": "Company W",
+        "cpt_codes": [
+            {
+                "code": "22222",
+                "amount_due": 300
+            },
+            {
+                "code": "33333",
+                "amount_due": 400
+            }
+        ],
+        "patient_demographics": {
+            "patient_id": "P005",
+            "name": "Sarah Wilson",
+            "dob": "19821212",
+            "gender": "F",
+            "address": {
+                "street": "654 Birch St",
+                "city": "Newplace",
+                "state": "IL",
+                "zip_code": "12345"
+            },
+            "relationship_to_policyholder": "self"
+        },
+        "policyholder_info": {
+            "policyholder_id": "PH005",
+            "name": "Michael Wilson",
+            "relationship": "spouse"
+        }
+    },
+    {
+        "insurance_plan": "Plan A",
+        "insurance_company": "Company X",
+        "cpt_codes": [
+            {
+                "code": "12345",
+                "amount_due": 90
+            }
+        ],
+        "patient_demographics": {
+            "patient_id": "P006",
+            "name": "David Brown",
+            "dob": "19791225",
+            "gender": "M",
+            "address": {
+                "street": "890 Maple St",
+                "city": "Anytown",
+                "state": "NY",
+                "zip_code": "54321"
+            },
+            "relationship_to_policyholder": "child"
+        },
+        "policyholder_info": {
+            "policyholder_id": "PH006",
+            "name": "Susan Brown",
+            "relationship": "self"
+        }
+    },
+    {
+        "insurance_plan": "Plan E",
+        "insurance_company": "Company V",
+        "cpt_codes": [
+            {
+                "code": "44444",
+                "amount_due": 220
+            },
+            {
+                "code": "55555",
+                "amount_due": 180
+            }
+        ],
+        "patient_demographics": {
+            "patient_id": "P007",
+            "name": "Greg Harper",
+            "dob": "19800520",
+            "gender": "M",
+            "address": {
+                "street": "234 Maple Dr",
+                "city": "Newcity",
+                "state": "TX",
+                "zip_code": "67890"
+            },
+            "relationship_to_policyholder": "spouse"
+        },
+        "policyholder_info": {
+            "policyholder_id": "PH007",
+            "name": "Anna Harper",
+            "relationship": "self"
+        }
+    },
+    {
+        "insurance_plan": "Plan F",
+        "insurance_company": "Company U",
+        "cpt_codes": [
+            {
+                "code": "66666",
+                "amount_due": 110
+            },
+            {
+                "code": "77777",
+                "amount_due": 140
+            }
+        ],
+        "patient_demographics": {
+            "patient_id": "P008",
+            "name": "Laura Carter",
+            "dob": "19950530",
+            "gender": "F",
+            "address": {
+                "street": "345 Elm Dr",
+                "city": "Sunnyvale",
+                "state": "CA",
+                "zip_code": "98765"
+            },
+            "relationship_to_policyholder": "child"
+        },
+        "policyholder_info": {
+            "policyholder_id": "PH008",
+            "name": "Mark Carter",
+            "relationship": "father"
+        }
+    }
+]
